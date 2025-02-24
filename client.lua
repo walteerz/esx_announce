@@ -1,5 +1,1 @@
-RegisterCommand("adm", function(source, args)
-    local text = table.concat(args, " ")
-    TriggerEvent("chatMessage", "[announce]", {255, 0, 0}, text)
-    print("announce: ".. text)
-end, false)
+
